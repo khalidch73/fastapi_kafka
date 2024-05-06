@@ -15,6 +15,8 @@ cd fastapi_kafka
 docker-compose.yml
 ```
 
+```yaml
+
 version: '3.8'
 
 services:
