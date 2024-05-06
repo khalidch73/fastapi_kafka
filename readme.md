@@ -4,12 +4,17 @@ In this directory we will set up a single-node Kafka and Zookeeper environment u
 
 ```bash
 mkdir fastapi_kafka
+```
+```bash
 cd fastapi_kafka
 ```
 
 ## Create a Docker Compose file
 
-```yaml
+```bash
+docker-compose.yml
+```
+
 version: '3.8'
 
 services:
