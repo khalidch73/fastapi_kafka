@@ -8,7 +8,7 @@ mkdir fastapi_kafka
 ```bash
 cd fastapi_kafka
 ```
-## Create a Docker Compose file
+## step 01: Create a Docker Compose file
 ```bash
 docker-compose.yml
 ```
@@ -59,19 +59,19 @@ networks:
     name: kafka-network
 ```
 
-## Start the Kafka and Zookeeper containers
+## step 02: Start the Kafka and Zookeeper containers
 
 ```bash
 docker-compose up -d
 ```
 
-## Check the containers
+## step 03: Check the containers
 
 ```bash
 docker compose ps
 ```
 
-## Create test.events topic
+##  step 04: Create test.events topic
 
 ### Enter the Kafka container’s shell
 
