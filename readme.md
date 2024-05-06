@@ -82,7 +82,7 @@ docker exec -it kafka bash
 ### Use the kafka-topics command
 
 ```bash
-$ kafka-topics --create --topic test.events --bootstrap-server kafka:29092 --partitions 4 --replication-factor 1
+kafka-topics --create --topic test.events --bootstrap-server kafka:29092 --partitions 4 --replication-factor 1
 ```
 
 ### Lets check the newly created topic
